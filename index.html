@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go IT Homework Markup #4</title>
+    <title>Go IT Homework Markup #5</title>
 
     <!-- Google Fonts -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,36 +76,9 @@
                 <h1 class="hero-title">Effective Solutions
                 <br>for Your Business</h1>
 
-                <div class="modal" id="modal">
-                    <div class="openModalBtn"></div>
-                    <div class="content">
-                        <div class="closeModalBtn" onclick="toggleModal()">&times;</div>
-                        <h1>Title</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                            A odit, necessitatibus quos adipisci molestiae et! 
-                            Sunt natus autem quae recusandae.</p>
-                    </div>
-                </div>
+                <button data-modal-open class="hero-button button" type="button">Order Service</button>
                 
-                
-                <button onclick="toggleModal()" class="hero-button button" type="button">Order Service</button>
 
-
-                <!-- <div class="popup" id="popup-1">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <div class="close-btn" onclick="toggleModal()">&times;</div>
-                        <h1>Title</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            <br>A odit, necessitatibus quos adipisci molestiae et!
-                            <br>Sunt natus autem quae recusandae.
-                        </p>
-                    </div>
-                </div>
-                
-                
-                <button onclick="toggleModal()" class="hero-button button" type="button">Order Service</button> -->
-                
                
     </section>
 
@@ -598,6 +571,17 @@
 
     <!--FOOTER END HERE-->
 
+<!-- MODAL -->
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+    <button class="modal-close" type="button" data-modal-close>
+    <svg class="modal-icon-close" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+    </button>
+    </div>
+</div>
     
 <script src="./js/modal.js"></script>
 </body>
