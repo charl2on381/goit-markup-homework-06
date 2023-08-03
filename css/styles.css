@@ -988,8 +988,8 @@ body {
 
 .modal-form {
     width: 448px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .form-field {
