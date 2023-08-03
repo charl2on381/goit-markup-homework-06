@@ -670,6 +670,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.subscribe-icon-send {
+    fill: currentColor;
+
+}
+
 .submit-button:hover {
   cursor: pointer;
 }
@@ -679,9 +684,10 @@ body {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url(../images/icon-send.svg);
+  /* background-image: url(../images/icon-send.svg); */
   margin-left: 10px;
 }
+
 
 .label-email {
   font-size: 16px;
