@@ -671,7 +671,7 @@ body {
 }
 
 .subscribe-icon-send {
-    padding: 16px;
+    padding-left: 16px;
     fill: currentColor;
 
 }
