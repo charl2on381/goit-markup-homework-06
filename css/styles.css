@@ -680,9 +680,7 @@ body {
     margin-left: 16px;
 }
 
-.subscribe-icon-send {
-    fill: currentColor;
-}
+
 
 .submit-button:hover,
 .submit-button:focus {
@@ -692,15 +690,20 @@ body {
 
 }
 
-/* .submit-button::after {
+.submit-button::after,
+.subscribe-icon-send::after {
   content: "";
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url(../images/icon-send.svg);
+  /* background-image: url(../images/icon-send.svg); */
   color: white;
   margin-left: 10px;
-} */
+}
+
+.subscribe-icon-send {
+    fill: currentColor;
+}
 
 
 .label-email {
@@ -709,6 +712,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white, #FFF);
 }
+
 
 /* Portfolio Section     */
 
