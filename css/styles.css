@@ -297,6 +297,7 @@ body {
 
 .header-address-mail-icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 .header-address-phone {
@@ -307,6 +308,7 @@ body {
 
 .header-address-phone-icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 .header-address-link:hover,
