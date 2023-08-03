@@ -279,12 +279,34 @@ body {
     color: var(--header-address-color);
 
     font-family: inherit;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
+}
+
+.header-address-mail {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header-address-mail-icon {
+    margin-right: 10px;
+}
+
+.header-address-phone {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header-address-phone-icon {
+    margin-right: 10px;
 }
 
 .header-address-link:hover,
