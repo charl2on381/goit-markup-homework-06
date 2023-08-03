@@ -670,6 +670,16 @@ body {
   letter-spacing: 0.06em;
 }
 
+.subscribe-icon-send::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /* background-image: url(../images/icon-send.svg); */
+    color: white;
+    margin-left: 16px;
+}
+
 .subscribe-icon-send {
     fill: currentColor;
 }
@@ -682,15 +692,15 @@ body {
 
 }
 
-.submit-button::after {
+/* .submit-button::after {
   content: "";
   display: inline-block;
   width: 24px;
   height: 24px;
-  /* background-image: url(../images/icon-send.svg); */
+  background-image: url(../images/icon-send.svg);
   color: white;
   margin-left: 10px;
-}
+} */
 
 
 .label-email {
