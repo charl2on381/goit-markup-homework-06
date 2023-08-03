@@ -670,9 +670,16 @@ body {
   letter-spacing: 0.06em;
 }
 
+.subscribe-icon-send {
+    fill: currentColor;
+}
 
-.submit-button:hover {
+.submit-button:hover,
+.submit-button:focus {
   cursor: pointer;
+  background-color: #404BBF;
+  color: #ffffff;
+
 }
 
 .submit-button::after {
@@ -683,10 +690,6 @@ body {
   /* background-image: url(../images/icon-send.svg); */
   color: white;
   margin-left: 10px;
-}
-
-.subscribe-icon-send {
-    fill: currentColor;
 }
 
 
@@ -1219,6 +1222,7 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-submit-button:hover {
+.modal-submit-button:hover,
+.modal-submit-button:focus {
     background: var(--ocean, #404BBF);
 }
