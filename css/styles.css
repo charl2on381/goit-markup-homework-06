@@ -678,8 +678,6 @@ body {
   color: #ffffff;
 
 }
-
-.submit-button::after,
 .subscribe-icon-send::after {
   content: "";
   display: inline-block;
@@ -687,7 +685,7 @@ body {
   height: 24px;
   /* background-image: url(../images/icon-send.svg); */
   color: white;
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 .subscribe-icon-send {
