@@ -1091,7 +1091,7 @@ body {
 .modal-label {
     font-size: 12px;
     font-weight: calc(14 / 12);
-    color: #757575;
+    color: var(--navyblue, #2E2F42);
 }
 
 .input-container {
@@ -1120,7 +1120,7 @@ body {
 
 .comment:focus {
     outline: 0;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--ocean, #404BBF);
 }
 
 .form-field textarea::placeholder {
@@ -1140,7 +1140,7 @@ body {
 
 .input-field:focus {
     outline: 0;
-    border: 1px solid #2196f3;
+    border: 1px solid var(--ocean, #404BBF);
 }
 
 .input-icon {
@@ -1155,7 +1155,7 @@ body {
 }
 
 .input-field:focus+.input-icon {
-    color: #2196f3;
+    color: var(--ocean, #404BBF);
 }
 
 .checkbox {
