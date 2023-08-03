@@ -637,7 +637,7 @@ body {
 
 .mail-field {
   display: block;
-  width: 358px;
+  width: 264px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -669,17 +669,6 @@ body {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
 }
-
-.subscribe-icon-send::after {
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    /* background-image: url(../images/icon-send.svg); */
-    color: white;
-    margin-left: 16px;
-}
-
 
 
 .submit-button:hover,
