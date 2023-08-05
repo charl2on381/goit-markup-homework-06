@@ -577,7 +577,7 @@
     </div>
 
      <div class="footer-subscribe">
-            <h2 class="footer-title">Subscribe</h2>
+            <h3 class="footer-title">Subscribe</h3>
             <form action="#" method="POST" name="subscribe_form" class="subscribe-input">
               <label class="label-email" for="mail"></label>
            
@@ -616,9 +616,11 @@
     </button>
     <p class="form-description">Leave your contacts and we will call you back</p>
         <form name="modal_form" class="modal-form">
-          <div class="form-field">
-            <label class="modal-label" for="name-modal-form">Name</label>
-            <div class="input-container">
+         
+            <label class="modal-label" for="name-modal-form">
+          
+                <span class="label-text">Name</span>
+                </label>
               <input
                 class="modal-form-name input-field"
                 type="text"
@@ -628,11 +630,9 @@
               <svg class="svg-name input-icon" width="18" height="18">
                 <use href="./images/icons.svg#person-black"></use>
               </svg>
-            </div>
-          </div>
-          <div class="form-field">
+          
             <label class="modal-label" for="phone-modal-form">Phone</label>
-            <div class="input-container">
+          
               <input
                 class="modal-form-phone input-field"
                 type="tel"
@@ -642,11 +642,9 @@
               <svg class="svg-phone input-icon" width="18" height="18">
                 <use href="./images/icons.svg#phone-black"></use>
               </svg>
-            </div>
-          </div>
-          <div class="form-field">
+         
             <label class="modal-label" for="mail-modal-form">Email</label>
-            <div class="input-container">
+           
               <input
                 class="modal-form-mail input-field"
                 type="email"
@@ -656,9 +654,9 @@
               <svg class="svg-mail input-icon" width="18" height="18">
                 <use href="./images/icons.svg#email-black"></use>
               </svg>
-            </div>
-          </div>
-          <div class="form-field textarea">
+          
+        
+ 
             <label class="modal-label" for="text-modal-form">Comment</label>
             <textarea
               class="comment"
@@ -666,7 +664,7 @@
               id="text-modal-form"
               placeholder="Text input"
             ></textarea>
-          </div>
+       
           <div class="checkbox">
             <input
               class="checkbox-field"
