@@ -1288,20 +1288,20 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 } */
 
-/* .checkbox-field:hover,
+.checkbox-field:hover,
 .checkbox-field:focus {
     background-color: #404BBF;
     color: #ffffff;
-} */
+}
 
-/* .checkbox-icon {
+.checkbox-icon {
     position: absolute;
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
     fill: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-} */
+}
 
 /* .checkbox-field:hover+.checkbox-text,
 .checkbox-field:focus+.checkbox-text {
@@ -1314,8 +1314,8 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 .checkbox-text {
-    /* position: absolute;
-    top:464px; */
+    position: absolute;
+    top:464px;
     color: var(--lightslate, #8E8F99);
 
     font-size: 12px;
