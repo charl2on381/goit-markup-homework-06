@@ -1271,8 +1271,8 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .checkbox-icon {
     position: absolute;
-    left: 12px;
-    top: 50%;
+    left: 24px;
+    top: 464px;
     transform: translateY(-50%);
     fill: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
