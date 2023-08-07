@@ -1255,7 +1255,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 } */
 
-.checkbox-field {
+/* .checkbox-field {
     position: absolute;
     top: 464px;
     right: 8px;
@@ -1276,7 +1276,17 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-50%);
     fill: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+} */
+/* 
+.checkbox-icon {
+    fill: currentColor;
 }
+
+.check-field:hover,
+.check-field:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+} */
 
 /* .checkbox-field {
 
@@ -1335,7 +1345,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-field:focus+.checkbox-icon {
     color: white;
 } */
-
+/* 
 .checkbox-text {
     position: absolute;
     top:464px;
@@ -1359,7 +1369,65 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.48px;
     text-decoration-line: underline;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+} */
+
+
+.modal-form-check-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+
+    color: #757575;
 }
+
+.modal-form-fake-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+
+    border: 1.25px solid #2e2f42;
+    border-radius: 2px;
+
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-fake-checkbox-icon {
+    opacity: 0;
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-check:checked+.modal-form-check-desc .modal-form-fake-checkbox {
+    background-color: #404bbf;
+    border-color: #404bbf;
+}
+
+.modal-form-check:checked+.modal-form-check-desc .modal-form-fake-checkbox-icon {
+    opacity: 1;
+}
+
+.modal-form-check:focus+.modal-form-check-desc .modal-form-fake-checkbox {
+    outline: 2px solid #101010;
+}
+
+.modal-form-check-desc-link {
+    color: #4d5ae5;
+}
+
+.modal-form-check-desc-link:visited {
+    color: #404bbf;
+}
+
 
 .modal-submit-button {
     /* display: block;
