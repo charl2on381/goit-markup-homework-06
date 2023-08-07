@@ -679,6 +679,7 @@ body {
   border-radius: 4px;
   background: var(--navyblue, #2E2F42);
   color: white;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-field:hover,
@@ -1169,7 +1170,7 @@ body {
         /* top: 8px;
         font-size: 12px;
         font-weight: calc(14 / 12); */
-    color: var(--lightslate, #8E8F99);
+    fill: var(--navyblue, #2E2F42);
     
         /* Small Text */
         font-family: Roboto;
@@ -1177,8 +1178,12 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 14px;
-        /* 116.667% */
+        margin-bottom: 26px;
         letter-spacing: 0.48px;
+}
+
+.modal-label:last-child {
+    margin-bottom: 16px;
 }
 
 .input-container {
@@ -1251,7 +1256,7 @@ body {
 
 .checkbox-field {
     appearance: none;
-    display: inline-block;
+    display: flex;
     width: 16px;
     height: 16px;
     border: 1px solid #212121;
@@ -1260,15 +1265,23 @@ body {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-field:checked {
+/* .checkbox-field:checked {
     border-color: transparent;
     background: var(--ocean, #404BBF);
     background-image: url(../images/icon-check1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box;
-}
+    display: flex;
+    justify-content: center;
 
+} */
+
+.checkbox-field:hover,
+.checkbox-field:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
 .checkbox-text {
     font-size: 14px;
     line-height: calc(24 / 14);
@@ -1291,6 +1304,7 @@ body {
     border-radius: 4px;
     border: none;
     color: #ffffff;
+    cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
